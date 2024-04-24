@@ -174,6 +174,7 @@ func process(in <-chan audio.Buffer) {
 	for {
 		data := <-in
 
+		// Emulate a file in RAM so that we don't have to create a real file.
 		file := &writerseeker.WriterSeeker{}
 		encoder := wav.NewEncoder(file, 16000, 16, 1, 1)
 
