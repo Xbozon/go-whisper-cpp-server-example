@@ -17,9 +17,9 @@ import (
 	"github.com/gordonklaus/portaudio"
 	"github.com/orcaman/writerseeker"
 
-	"github.com/Xbozon/tts-translator/sound"
-	vadlib "github.com/Xbozon/tts-translator/vad"
-	"github.com/Xbozon/tts-translator/whisper"
+	"github.com/Xbozon/stt-translator/sound"
+	vadlib "github.com/Xbozon/stt-translator/vad"
+	"github.com/Xbozon/stt-translator/whisper"
 )
 
 const (

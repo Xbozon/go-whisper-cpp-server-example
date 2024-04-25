@@ -1,4 +1,4 @@
-module github.com/Xbozon/tts-translator
+module github.com/Xbozon/stt-translator
 
 go 1.21.4
 
